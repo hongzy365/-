@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        /* 导航栏 */
+        header {
+            background-color: #2c3e50;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        header img {
+            height: 40px;
+        }
+        header h1 {
+            color: white;
+            font-size: 1.5rem;
+        }
+        /* 主体内容 */
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        .card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        .card p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- 嵌入你的Logo -->
+        < img src="logo.png" alt="我的网站Logo">
+        <h1>我的个人主页</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>关于我</h2>
+            <p>你好！我是一名电气工程及其自动化专业的大学生，喜欢探索AI、编程和网页开发。这是我用AI工具生成的第一个个人网站，记录我的学习与成长。</p >
+        </div>
+
+        <div class="card">
+            <h2>我的技能</h2>
+            <p>✅ 电路分析与基础编程<br>✅ 网页开发（HTML/CSS/JS）<br>✅ AI工具使用与提示词优化<br>✅ 数据分析与可视化</p >
+        </div>
+
+        <div class="card">
+            <h2>联系方式</h2>
+            <p>📧 邮箱：your-email@example.com<br>💻 GitHub：github.com/your-username</p >
+        </div>
+    </div>
+
+    <footer>
+        © 2026 我的个人主页 | 由AI工具辅助开发
+    </footer>
+</body>
+</html>
